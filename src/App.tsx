@@ -10,6 +10,28 @@ function App() {
         <div className="glow-orb glow-orb-2"></div>
       </div>
 
+      {/* Navbar */}
+      <nav className="navbar">
+        <div className="nav-content">
+          <div className="brand">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="#8b5cf6" />
+                  <stop offset="100%" stopColor="#3b82f6" />
+                </linearGradient>
+              </defs>
+              <path d="M4 16 L14 4 L18 4 L12 14 L28 14 L18 28 L14 28 L20 18 L4 18 Z" fill="url(#logoGradient)" />
+            </svg>
+            <span className="brand-text">TypeTrace</span>
+          </div>
+          <div className="nav-links">
+            <a href="#features">Features</a>
+            <a href="#download" className="btn btn-primary btn-sm">Download</a>
+          </div>
+        </div>
+      </nav>
+
       <div className="container">
         {/* Hero Section */}
         <section className="hero">
