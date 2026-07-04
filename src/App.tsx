@@ -1,4 +1,4 @@
-import { Download, Monitor, Activity, Zap, Layout } from 'lucide-react';
+import { Download, Monitor, Activity, Zap, Layout, ShieldCheck } from 'lucide-react';
 import { FaApple, FaWindows, FaLinux } from 'react-icons/fa';
 
 function App() {
@@ -96,6 +96,14 @@ function App() {
               </div>
               <h3>Live Dashboards</h3>
               <p style={{ fontSize: '1rem', marginTop: '12px' }}>Beautiful glassmorphic UI with real-time graphs displaying your 60-second typing history and lifetime peak WPM.</p>
+            </div>
+            
+            <div className="glass-card">
+              <div className="feature-icon" style={{ color: '#10b981', background: 'rgba(16, 185, 129, 0.1)' }}>
+                <ShieldCheck size={24} />
+              </div>
+              <h3>100% Offline & Private</h3>
+              <p style={{ fontSize: '1rem', marginTop: '12px' }}>Your keystrokes never leave your computer. TypeTrace does not connect to the internet and stores all data locally.</p>
             </div>
           </div>
         </section>
