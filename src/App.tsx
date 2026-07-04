@@ -63,7 +63,7 @@ function App() {
               <FaApple size={48} color="var(--text-primary)" style={{ marginBottom: '16px' }} />
               <h3>macOS</h3>
               <p style={{ fontSize: '0.9rem', marginBottom: '24px' }}>Requires Apple Silicon or Intel Mac</p>
-              <a href="#" className="btn btn-glass" style={{ width: '100%', justifyContent: 'center' }}>
+              <a href="https://github.com/tanmayhutt/typetrace-app/releases/download/v1.0.0/TypeTrace-1.0.0-arm64.dmg" className="btn btn-glass" style={{ width: '100%', justifyContent: 'center' }}>
                 Download .dmg
               </a>
             </div>
