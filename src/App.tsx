@@ -1,4 +1,3 @@
-import React from 'react';
 import { Download, Monitor, Activity, Zap, Layout } from 'lucide-react';
 import { FaApple, FaWindows, FaLinux } from 'react-icons/fa';
 
